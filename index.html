@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- Condition 1: Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Internal CSS */
+        /* Condition 3: Hero section styling */
+        .hero { padding: 60px 20px; }
+    </style>
+</head>
+<body>
+
+<!-- Condition 2: Responsive Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="">IE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Condition 3: Hero/Intro Section -->
+<section class="hero text-center">
+    <h1>Welcome</h1>
+    <p class="lead">Internet Explorer is a well-known Microsoft browser that started at Windows 95 and ended at 2022.</p>
+    <a href="contact.html" class="btn btn-primary p-2">Get Started</a>
+</section>
+
+<!-- Condition 4: Two-column responsive section -->
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 p-3">
+            <h3>Support</h3>
+            <p>It supported Windows devices.</p>
+        </div>
+        <div class="col-12 col-md-6 p-3">
+            <h3>Popularity</h3>
+            <p>It was the most popular in the Windows 7 time.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Condition 1: Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    /* Internal JS */
+    document.addEventListener("DOMContentLoaded", function() {});
+</script>
+
+</body>
+</html>
